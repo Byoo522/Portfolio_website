@@ -1,0 +1,23 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Byoo522/Portfolio_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Byoo522/Portfolio_website/issues"
+  },
+  "homepage": "https://github.com/Byoo522/Portfolio_website#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {}
+}
