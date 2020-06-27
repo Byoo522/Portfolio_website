@@ -39,35 +39,34 @@ img {
 
 // Main Nav
 #main-nav {
-display: flex;
-justify-content: space-between;
-padding-top: 1rem;
-
-ul {
     display: flex;
-}
+    justify-content: space-between;
+    padding-top: 1rem;
 
-li {
-    padding: 1rem 1.5rem;
-}
+    ul {
+        display: flex;
+    }
 
-a {
-text-decoration: none;
-color: #fff;
-text-transform: uppercase;
-border-bottom: 3px transparent solid;
-padding-bottom: 0.5rem;
-transition: border-color 0.5s;
+    li {
+        padding: 1rem 1.5rem;
+    }
 
-&:hover {
-    border-color: $medium-color;
-}
+    a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        border-bottom: 3px transparent solid;
+        padding-bottom: 0.5rem;
+        transition: border-color 0.5s;
 
-&.current {
-    border-color: $main-color;
-}
-}
+        &:hover {
+            border-color: $medium-color;
+        }
 
+        &.current {
+            border-color: $main-color;
+        }
+    }
 }
 
 // Header
