@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Byoo522/Portfolio_website#readme",
   "dependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {}
 }
